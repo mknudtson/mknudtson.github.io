@@ -1,0 +1,164 @@
+html, body {
+     height: 100%;
+     margin: auto;
+}
+/* wrapper */
+ #wrapper {
+     background-color: #361933;
+     color: #C0DAEA;
+     height: 100%;
+     margin: auto;
+     max-width: 1000px;
+     font-family: "Lucida Sans Unicode", sans-serif;
+     font-size: medium;
+     line-height: 1.5em;
+}
+ #wrapper li {
+     list-style-position: inside;
+     list-style-type: square;
+}
+ #wrapper p {
+     margin-top: 1em;
+     margin-bottom: 1em;
+     padding: 0 0 0.5em 0;
+}
+/* top section with photo */
+ #top {
+     background-color: #C9DAEA;
+     border: solid 5px #C9DAEA;
+     border-radius: 0 0 2% 2%;
+     padding: 1em;
+     text-align: center;
+}
+ #top h1 {
+     color: #361933;
+     font-size: 3em;
+     font-weight: bold;
+     line-height: 1.5em;
+}
+ #photo-of-me {
+     border: solid 10px #361933;
+     border-radius: 50%;
+     display: block;
+     margin: auto;
+     width: 25%;
+}
+/* global navigation */
+ #global-nav {
+     background-color: #d62246;
+     border-top: solid 10px #361933;
+     border-bottom: solid 10px #361933;
+     color: #361933;
+}
+ #global-nav ul {
+     text-align: center;
+}
+ #global-nav li {
+     display: inline-block;
+     font-size: 1.1em;
+     font-weight: bold;
+     margin: 0 1%;
+     padding: 1em;
+     width: auto;
+}
+ #global-nav li:hover {
+     color: white;
+     cursor: pointer;
+}
+/* content area */
+ .content {
+     background-color: #361933;
+     margin: 0em 0 4em 0;
+     min-height: 100px;
+     overflow: hidden;
+     padding: 2em;
+}
+ .content h1 {
+     font-size: 3em;
+     line-height: 1.5em;
+     margin: 0 0 1em 0;
+}
+ .content a {
+     color: #d62246;
+}
+ .content a:hover {
+     color: white;
+}
+ .in-content-photo {
+     border: solid 2px #c9daea;
+     border-radius: 2%;
+}
+ .in-content-photo-n-cap {
+     display: inline;
+     float: right;
+     margin: 1em;
+}
+ .in-content-cap {
+     margin: 0.1em !important;
+     text-align: center;
+     color: #c9daea;
+}
+ #experience, #education, #skills, #professional, #portfolio, #contact-me {
+     display: none;
+}
+ .accordion {
+     padding: 0 0 1em 0;
+}
+ .accordion-toggle {
+     background-color: #d62246;
+     border: 5px solid #361933;
+     color: #361933;
+     cursor: pointer;
+     font-weight: bold;
+     padding: 1em;
+}
+ .accordion-toggle:hover {
+     background-color: #C9Daea;
+     color: #d62246;
+     cursor: pointer;
+}
+ .accordion-content {
+     display: none;
+     margin: 1em;
+}
+ #show-contact-me {
+     background-color: #D62246;
+     border: solid 2.5px #D62246;
+     border-radius: 5%;
+     box-shadow: 5px 5px #361933;
+     color: #361933;
+     font-size: 1.1em;
+     font-weight: bold;
+}
+ #show-contact-me:hover {
+     color: white;
+     cursor: pointer;
+}
+ #footer {
+     background-color: #C9DAEA;
+     border-top: solid 10px #361933;
+     bottom: 0;
+     color: #361933;
+     height: 2em;
+     max-width: inherit;
+     padding: 1.5em 0 1em 0;
+     position: fixed;
+     width: 100%;
+}
+ #footer p {
+     bottom: 1em;
+}
+ #footer-left {
+     float: left;
+     font-weight: bold;
+     position: relative;
+     left: 5%;
+}
+ #footer-left a {
+     font-weight: bold;
+}
+ #footer-right {
+     float: right;
+     position: relative;
+     right: 5%;
+}

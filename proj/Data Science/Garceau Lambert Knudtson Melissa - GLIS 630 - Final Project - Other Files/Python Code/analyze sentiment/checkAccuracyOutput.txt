@@ -1,0 +1,25 @@
+AUTOMATIC +/-1
+
+Number of automatically labelled records that are inaccurately labelled: 128
+Percentage accuracy: 66.57963446475196
+ENGLISH: Number of automatically labelled records that are inaccurately labelled: 26
+ENGLISH: Percentage accuracy: 74.0
+FRENCH: Number of automatically labelled records that are inaccurately labelled: 32
+FRENCH: Percentage accuracy: 68.0
+SPANISH: Number of automatically labelled records that are inaccurately labelled: 29
+SPANISH: Percentage accuracy: 71.0
+CATALAN: Number of automatically labelled records that are inaccurately labelled: 31
+CATALAN: Percentage accuracy: 62.65060240963856
+
+AUTOMATIC +/-2
+
+Number of automatically labelled records that are inaccurately labelled: 35
+Percentage accuracy: 90.86161879895562
+ENGLISH: Number of automatically labelled records that are inaccurately labelled: 15
+ENGLISH: Percentage accuracy: 85.0
+FRENCH: Number of automatically labelled records that are inaccurately labelled: 5
+FRENCH: Percentage accuracy: 95.0
+SPANISH: Number of automatically labelled records that are inaccurately labelled: 2
+SPANISH: Percentage accuracy: 98.0
+CATALAN: Number of automatically labelled records that are inaccurately labelled: 11
+CATALAN: Percentage accuracy: 86.74698795180723
